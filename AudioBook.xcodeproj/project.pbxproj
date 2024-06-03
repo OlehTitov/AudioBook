@@ -13,7 +13,6 @@
 		7C20CCB92C0AEBAB005F8920 /* part-4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7C20CCB82C0AEBAB005F8920 /* part-4.mp3 */; };
 		7C20CCBB2C0BB07A005F8920 /* PlayerControlButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C20CCBA2C0BB07A005F8920 /* PlayerControlButton.swift */; };
 		7C318EBC2C05A2AA008CCFF4 /* AudioBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C318EBB2C05A2AA008CCFF4 /* AudioBookApp.swift */; };
-		7C318EBE2C05A2AA008CCFF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C318EBD2C05A2AA008CCFF4 /* ContentView.swift */; };
 		7C318EC02C05A2AC008CCFF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C318EBF2C05A2AC008CCFF4 /* Assets.xcassets */; };
 		7C318EC32C05A2AC008CCFF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C318EC22C05A2AC008CCFF4 /* Preview Assets.xcassets */; };
 		7C318ECB2C05A343008CCFF4 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 7C318ECA2C05A343008CCFF4 /* ComposableArchitecture */; };
@@ -26,6 +25,7 @@
 		7C318EE72C073B6A008CCFF4 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C318EE62C073B6A008CCFF4 /* Helpers.swift */; };
 		7C318EEF2C08E3A2008CCFF4 /* the-art-of-war.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C318EEB2C08E3A1008CCFF4 /* the-art-of-war.jpg */; };
 		7C5E19472C0D022100AB1465 /* AudioBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5E19462C0D022100AB1465 /* AudioBookTests.swift */; };
+		7C6EF1E52C0DFA9900151B94 /* BookSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6EF1E42C0DFA9900151B94 /* BookSummaryView.swift */; };
 		7CD7BE612C0C43C700EFF888 /* InteractiveButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD7BE602C0C43C700EFF888 /* InteractiveButtonStyle.swift */; };
 		7CD7BE632C0C4CB000EFF888 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD7BE622C0C4CAF00EFF888 /* Haptics.swift */; };
 		7CD7BE662C0C4E0500EFF888 /* HapticOnTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD7BE652C0C4E0500EFF888 /* HapticOnTouch.swift */; };
@@ -53,7 +53,6 @@
 		7C20CCBA2C0BB07A005F8920 /* PlayerControlButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerControlButton.swift; sourceTree = "<group>"; };
 		7C318EB82C05A2AA008CCFF4 /* AudioBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C318EBB2C05A2AA008CCFF4 /* AudioBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioBookApp.swift; sourceTree = "<group>"; };
-		7C318EBD2C05A2AA008CCFF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7C318EBF2C05A2AC008CCFF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C318EC22C05A2AC008CCFF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7C318ECC2C05B150008CCFF4 /* BookSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSummary.swift; sourceTree = "<group>"; };
@@ -66,6 +65,7 @@
 		7C318EEB2C08E3A1008CCFF4 /* the-art-of-war.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "the-art-of-war.jpg"; sourceTree = "<group>"; };
 		7C5E19442C0D022100AB1465 /* AudioBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C5E19462C0D022100AB1465 /* AudioBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioBookTests.swift; sourceTree = "<group>"; };
+		7C6EF1E42C0DFA9900151B94 /* BookSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSummaryView.swift; sourceTree = "<group>"; };
 		7CD7BE602C0C43C700EFF888 /* InteractiveButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveButtonStyle.swift; sourceTree = "<group>"; };
 		7CD7BE622C0C4CAF00EFF888 /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
 		7CD7BE652C0C4E0500EFF888 /* HapticOnTouch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticOnTouch.swift; sourceTree = "<group>"; };
@@ -119,9 +119,9 @@
 				7C318EBB2C05A2AA008CCFF4 /* AudioBookApp.swift */,
 				7C318EE62C073B6A008CCFF4 /* Helpers.swift */,
 				7CD7BE642C0C4DE000EFF888 /* Haptics */,
-				7C318EBD2C05A2AA008CCFF4 /* ContentView.swift */,
 				7CD7BE692C0CD98600EFF888 /* Model */,
 				7C318ECC2C05B150008CCFF4 /* BookSummary.swift */,
+				7C6EF1E42C0DFA9900151B94 /* BookSummaryView.swift */,
 				7C318EE02C0648CD008CCFF4 /* UI Components */,
 				7C318ED12C0617EB008CCFF4 /* SummaryLoaderClient */,
 				7C318EE32C066747008CCFF4 /* AudioPlayerClient */,
@@ -332,7 +332,6 @@
 				7C318EE52C066770008CCFF4 /* AudioPlayerClient.swift in Sources */,
 				7CD7BE682C0CBEFF00EFF888 /* PlayPauseButton.swift in Sources */,
 				7C318ED32C06293A008CCFF4 /* SummaryLoaderClient.swift in Sources */,
-				7C318EBE2C05A2AA008CCFF4 /* ContentView.swift in Sources */,
 				7CD7BE662C0C4E0500EFF888 /* HapticOnTouch.swift in Sources */,
 				7CD7BE612C0C43C700EFF888 /* InteractiveButtonStyle.swift in Sources */,
 				7C318ECD2C05B150008CCFF4 /* BookSummary.swift in Sources */,
@@ -343,6 +342,7 @@
 				7C318ED72C062ED4008CCFF4 /* LiveSummaryLoaderClient.swift in Sources */,
 				7C318EE22C0648E9008CCFF4 /* BookCover.swift in Sources */,
 				7C318ED52C062DC3008CCFF4 /* BundleSummaryLoader.swift in Sources */,
+				7C6EF1E52C0DFA9900151B94 /* BookSummaryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

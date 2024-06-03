@@ -12,7 +12,7 @@ import ComposableArchitecture
 struct AudioBookApp: App {
     static let store = Store(initialState: BookSummary.State()) {
         BookSummary()
-            ._printChanges()
+//            ._printChanges()
     }
     
     var body: some Scene {
